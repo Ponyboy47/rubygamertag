@@ -1,0 +1,268 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.xboxleaders.com:80/api/friends/Major+Nelson.json
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Wed, 24 Aug 2011 16:40:13 GMT
+      server: 
+      - Apache/2.0.63 (Unix) mod_ssl/2.0.63 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 PHP/5.2.13
+      x-powered-by: 
+      - PHP/5.2.13
+      expires: 
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      last-modified: 
+      - Wed, 24 Aug 2012 16:40:14GMT
+      cache-control: 
+      - no-cache, must-revalidate
+      pragma: 
+      - no-cache
+      content-length: 
+      - "3225"
+      content-type: 
+      - application/json
+    body: "{
+  \"Data\": {
+    \"TotalFriends\": 100,
+    \"TotalOnlineFriends\": 3,
+    \"TotalOfflineFriends\": 97,
+    \"Friends\": [
+      {
+        \"Gamertag\": \"allad1nsane\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/allad1nsane\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/allad1nsane\/avatarpic-l.png\",
+        \"GamerScore\": 15490,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": 1343011198,
+          \"OnlineStatus\": \"Last seen 13 hours ago playing Gears of War 3\",
+          \"Game\": {
+            \"Title\": \"Gears of War 3\",
+            \"Id\": 1297287339,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/1297287339\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"BAPenguin\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/BAPenguin\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/BAPenguin\/avatarpic-l.png\",
+        \"GamerScore\": 101552,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": \"Unknown\",
+          \"OnlineStatus\": \"Offline\",
+          \"Game\": {
+            \"Title\": \"Unknown\",
+            \"Id\": 0,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/0\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"Bastelyon\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/Bastelyon\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/Bastelyon\/avatarpic-l.png\",
+        \"GamerScore\": 46697,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": 1342842813,
+          \"OnlineStatus\": \"Last seen 7\/21\/2012 playing Rock Band 3\",
+          \"Game\": {
+            \"Title\": \"Rock Band 3\",
+            \"Id\": 1161890068,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/1161890068\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"Big Swifty\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/Big%20Swifty\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/Big%20Swifty\/avatarpic-l.png\",
+        \"GamerScore\": 17077,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": \"Unknown\",
+          \"OnlineStatus\": \"Offline\",
+          \"Game\": {
+            \"Title\": \"Unknown\",
+            \"Id\": 0,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/0\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"BIGVIP\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/BIGVIP\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/BIGVIP\/avatarpic-l.png\",
+        \"GamerScore\": 11132,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": 1343024968,
+          \"OnlineStatus\": \"Last seen 9 hours ago playing HBO GO\",
+          \"Game\": {
+            \"Title\": \"HBO GO\",
+            \"Id\": 1145440209,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/1145440209\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"bmac8781\",
+        \"AvatarSmall\": \"http:\/\/image.xboxlive.com\/global\/t.585708cb\/tile\/0\/18003\",
+        \"AvatarLarge\": \"http:\/\/image.xboxlive.com\/global\/t.585708cb\/tile\/0\/28003\",
+        \"GamerScore\": 10316,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": 1342970068,
+          \"OnlineStatus\": \"Last seen 7\/22\/2012 playing Tony Hawk's PS HD\",
+          \"Game\": {
+            \"Title\": \"Tony Hawk's PS HD\",
+            \"Id\": 1480659530,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/1480659530\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"BRIAN214\",
+        \"AvatarSmall\": \"http:\/\/image.xboxlive.com\/global\/t.544607fa\/tile\/0\/18004\",
+        \"AvatarLarge\": \"http:\/\/image.xboxlive.com\/global\/t.544607fa\/tile\/0\/28004\",
+        \"GamerScore\": 5925,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": \"Unknown\",
+          \"OnlineStatus\": \"Offline\",
+          \"Game\": {
+            \"Title\": \"Unknown\",
+            \"Id\": 0,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/0\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"Chuck Bartowski\",
+        \"AvatarSmall\": \"http:\/\/image.xboxlive.com\/global\/t.41560817\/tile\/0\/18009\",
+        \"AvatarLarge\": \"http:\/\/image.xboxlive.com\/global\/t.41560817\/tile\/0\/28009\",
+        \"GamerScore\": 12451,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": 1342751917,
+          \"OnlineStatus\": \"Last seen 7\/20\/2012 playing Xbox Dashboard\",
+          \"Game\": {
+            \"Title\": \"Xbox Dashboard\",
+            \"Id\": 4294838225,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/4294838225\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"Cookiecups\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/Cookiecups\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/Cookiecups\/avatarpic-l.png\",
+        \"GamerScore\": 12469,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": \"Unknown\",
+          \"OnlineStatus\": \"Offline\",
+          \"Game\": {
+            \"Title\": \"Unknown\",
+            \"Id\": 0,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/0\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"Crecente\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/Crecente\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/Crecente\/avatarpic-l.png\",
+        \"GamerScore\": 20625,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": 1342880785,
+          \"OnlineStatus\": \"Last seen 7\/21\/2012 playing Xbox.com\",
+          \"Game\": {
+            \"Title\": \"Xbox.com\",
+            \"Id\": 4293722112,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/4293722112\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"Crowflite\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/Crowflite\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/Crowflite\/avatarpic-l.png\",
+        \"GamerScore\": 9318,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": 1343028700,
+          \"OnlineStatus\": \"Last seen 8 hours ago playing Xbox Dashboard\",
+          \"Game\": {
+            \"Title\": \"Xbox Dashboard\",
+            \"Id\": 4294838225,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/4294838225\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"Cthulhu\",
+        \"AvatarSmall\": \"http:\/\/image.xboxlive.com\/global\/t.fffe07d1\/tile\/0\/10001\",
+        \"AvatarLarge\": \"http:\/\/image.xboxlive.com\/global\/t.fffe07d1\/tile\/0\/20001\",
+        \"GamerScore\": 5,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": \"Unknown\",
+          \"OnlineStatus\": \"Offline\",
+          \"Game\": {
+            \"Title\": \"Unknown\",
+            \"Id\": 0,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/0\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"Damian7133\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/Damian7133\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/Damian7133\/avatarpic-l.png\",
+        \"GamerScore\": 8225,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": \"Unknown\",
+          \"OnlineStatus\": \"Offline\",
+          \"Game\": {
+            \"Title\": \"Unknown\",
+            \"Id\": 0,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/0\"
+          }
+        }
+      },
+      {
+        \"Gamertag\": \"Defender90\",
+        \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/Defender90\/avatarpic-s.png\",
+        \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/Defender90\/avatarpic-l.png\",
+        \"GamerScore\": 9992,
+        \"IsOnline\": false,
+        \"PresenceInfo\": {
+          \"LastOnline\": \"Unknown\",
+          \"OnlineStatus\": \"Offline\",
+          \"Game\": {
+            \"Title\": \"Unknown\",
+            \"Id\": 0,
+            \"Url\": \"http:\/\/marketplace.xbox.com\/en-US\/Title\/0\"
+          }
+        }
+      },
+    ]
+  },
+  \"Stat\": \"ok\",
+  \"In\": 5.995,
+  \"Authed\": \"false\",
+  \"AuthedAs\": \"\"
+}"
+http_version: "1.1"

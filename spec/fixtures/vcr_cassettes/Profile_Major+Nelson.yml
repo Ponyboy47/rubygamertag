@@ -1,0 +1,59 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.xboxleaders.com:80/api/profile/Major+Nelson.json
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      date: 
+      - Wed, 24 Aug 2011 16:40:13 GMT
+      server: 
+      - Apache/2.0.63 (Unix) mod_ssl/2.0.63 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 PHP/5.2.13
+      x-powered-by: 
+      - PHP/5.2.13
+      expires: 
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      last-modified: 
+      - Wed, 24 Aug 2012 16:40:14GMT
+      cache-control: 
+      - no-cache, must-revalidate
+      pragma: 
+      - no-cache
+      content-length: 
+      - "3225"
+      content-type: 
+      - application/json
+    body: "{
+  \"Data\": {
+    \"Tier\": \"gold\",
+    \"IsValid\": 1,
+    \"IsCheater\": 0,
+    \"IsOnline\": 0,
+    \"OnlineStatus\": \"Last seen 2 hours ago playing Battlefield 3\",
+    \"XBLLaunchTeam\": 0,
+    \"NXELaunchTeam\": 0,
+    \"KinectLaunchTeam\": 0,
+    \"AvatarTile\": \"http:\/\/avatar.xboxlive.com\/avatar\/Major%20Nelson\/avatarpic-s.png\",
+    \"AvatarSmall\": \"http:\/\/avatar.xboxlive.com\/avatar\/Major Nelson\/avatarpic-s.png\",
+    \"AvatarLarge\": \"http:\/\/avatar.xboxlive.com\/avatar\/Major Nelson\/avatarpic-l.png\",
+    \"AvatarBody\": \"http:\/\/avatar.xboxlive.com\/avatar\/Major Nelson\/avatar-body.png\",
+    \"Gamertag\": \"Major Nelson\",
+    \"GamerScore\": 58772,
+    \"Reputation\": 20,
+    \"Name\": \"\",
+    \"Motto\": \"\",
+    \"Location\": \"\",
+    \"Bio\": \"\"
+  },
+  \"Stat\": \"ok\",
+  \"In\": 1.675,
+  \"Authed\": \"false\",
+  \"AuthedAs\": \"\"
+}
+"
+    http_version: "1.1"
